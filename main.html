@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSINESS LANDING PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- navbar part -->
+    <div class="container"> 
+        <header class="header">
+            <div class="business-name">
+                <p>Business name</p>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <a href="#home"> Home</a>
+                </div>
+                <div class="item">
+                    <a href="#about-us"> About Us</a>
+                </div>
+                <div class="item">
+                    <a href="#our-services">Our Services</a>
+                </div>
+                <div class="item">
+                    <a href="#contact-us">Contact Us</a>
+                </div>
+            </div>
+        </header>
+        <!-- ui part -->
+        <section id="home" class="ui">
+            <div class="left">
+                <h1>BUSINESS</h1>
+                <h1>LANDING</h1>
+                <h1>PAGE</h1>
+            </div>
+            <div class="right">
+                <img src="https://th.bing.com/th/id/R.f8c0ccea4837d18e4bf62190122c27c6?rik=4Ns4q5CSZ3ZzQg&riu=http%3a%2f%2fwww.petsworld.in%2fblog%2fwp-content%2fuploads%2f2014%2f12%2fSamoyed.jpg&ehk=n4yLdX19q8ZA%2fQB%2fKHTY45AAQjerOqQcGLLT4KLfNbY%3d&risl=&pid=ImgRaw&r=0" alt="image">
+            </div>
+            <div class="arrow">
+                <a href="#our-services"><i class='fas fa-arrow-down'></i></a>
+            </div>
+        </section>
+        <!-- flex section -->
+        <main id="about-us" class="content">
+            <section class="flex-section">
+                <div class="left">
+                    <img src="https://th.bing.com/th/id/R.f8c0ccea4837d18e4bf62190122c27c6?rik=4Ns4q5CSZ3ZzQg&riu=http%3a%2f%2fwww.petsworld.in%2fblog%2fwp-content%2fuploads%2f2014%2f12%2fSamoyed.jpg&ehk=n4yLdX19q8ZA%2fQB%2fKHTY45AAQjerOqQcGLLT4KLfNbY%3d&risl=&pid=ImgRaw&r=0" alt="dog pic">
+                </div>
+                <div class="right">
+                    <h1>ABOUT US</h1>
+                    <p>The movies on this list are ranked according to their success (awards & nominations), their popularity, and their cinematic greatness from a directing/writing perspective. To me, accuracy when making a Top 10/Top 100 all time list is extremely important. My lists are not based on my own personal favorites; they are based on the true greatness and/or success of the person, place or thing being ranked. In other words, a film's commercial success (Oscars & BAFTA Awards), and greatness in direction.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <!-- cards -->
+        <section id="our-services" class="cards">
+            <div class="Our-services">
+                <h1>OUR SERVICES</h1>
+            </div>
+            <div class="A">
+                <div class="A1 a">
+                    <h3>Service 1</h3>
+                    <p>In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis </p>
+                </div>
+                <div class="A1 b">
+                    <h3>Service 2</h3>
+                    <p>Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others' wishes.</p>
+                </div>
+                <div class="A1 c">
+                    <h3>Service 3</h3>
+                    <p>In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse.</p>
+                </div>
+        </section>
+        <!-- details -->
+            <section id="contact-us" class="details">
+                <div class="contactus">
+                    <h1>CONTACT US</h1>
+                </div>
+                <form id="form">
+                    <div>
+                        <label for="name"></label><br>
+                        <input type="text" name="name" id="full-name" placeholder="Full Name" value="">
+                    </div>
+                    <div>
+                        <label for="name"></label><br>
+                        <input type="text" name="name" id="last-name" placeholder="Last Name" value="">
+                    </div>
+                    <div>
+                        <label for="email"></label><br>
+                        <input type="email" name="email" id="email" placeholder="Email address" value="">
+                    </div>
+                    <div>
+                        <label for="Reason-for-contacting"></label><br>
+                        <input type="text" name="Reason-for-contacting" id="Reason-contacting"
+                            placeholder="Reason For Contacting" value="">
+                    </div>
+                    <div>
+                        <input type="button" id="btn" value="Submit" onclick="submitForm()">
+                    </div>
+                </form>c
+            </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
